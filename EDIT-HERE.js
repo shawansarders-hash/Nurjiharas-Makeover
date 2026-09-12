@@ -11,8 +11,8 @@ const SITE = {
   // ====== 1) BASIC INFORMATION ======
   brandName: "NURJIHARA'S MAKEOVER",
   email: "nurjharaaakter@gmail.com",
-  messenger: "https://m.me/growlanceragency",
-  facebook: "", // Facebook page URL দিন। না থাকলে ফাঁকা রাখুন।
+  messenger: "https://m.me/profile.php?id=61594069028939",
+  facebook: "https://www.facebook.com/profile.php?id=61594069028939", // Facebook page URL দিন। না থাকলে ফাঁকা রাখুন।
 
   // ====== 2) HERO / MAIN TEXT ======
   heroEyebrow: "Beauty • Bridal • Elegance",
@@ -191,8 +191,8 @@ const SITE = {
   // Footer developer credit
   const dev = qa(".footer-credit a");
   dev.forEach(el => {
-    setText(el, SITE.developerName + " ↗");
-    if (SITE.developerLink) el.href = SITE.developerLink;
+    setText(el, "Growlancer Agency ↗");
+    el.href = "https://www.facebook.com/growlanceragency";
   });
 
   // Keep the booking mail address in the existing form script in sync.
